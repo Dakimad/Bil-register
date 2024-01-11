@@ -1,0 +1,184 @@
+/* Generelle stiler for hele siden */
+body {
+    font-family: 'Arial', sans-serif; /* Bruker Arial eller sans-serif som fallbakkskrift */
+    margin: 20px; /* Legger 20 piksler med margin rundt hele siden */
+    background-color: #f4f4f4; /* Setter en lys grå bakgrunnsfarge for hele siden */
+}
+
+/* Stiler for overskriftene h1 og h2 */
+h1, h2 {
+    color: #333; /* Setter tekstfargen til en mørk gråfarge */
+}
+
+/* Stiler for et skjema */
+form {
+    max-width: 600px; /* Setter maksimal bredde til 600 piksler for å begrense bredden på skjemaet */
+    margin: 0 auto; /* Plasserer skjemaet i midten horisontalt */
+    background-color: #fff; /* Setter en hvit bakgrunn for skjemaet */
+    padding: 20px; /* Legger til 20 piksler med polstring rundt skjemaet */
+    border-radius: 8px; /* Bruker avrundede hjørner med en radius på 8 piksler */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Legger til en svak skyggeeffekt rundt skjemaet */
+}
+
+/* Stiler for etiketter i skjemaet */
+label {
+    display: block; /* Gjør etikettene til blokk-elementer for å plassere dem på separate linjer */
+    margin-bottom: 5px; /* Legger 5 piksler med avstand under hver etikett */
+}
+
+/* Stiler for input-felt i skjemaet */
+input {
+    width: 100%; /* Setter bredden til 100% av forelderens bredde */
+    padding: 10px; /* Legger til 10 piksler med polstring rundt inntastingsfeltene */
+    margin-bottom: 15px; /* Legger 15 piksler med avstand under hvert inntastingsfelt */
+    box-sizing: border-box; /* Inkluderer polstring og kant i elementets totale bredde */
+    border: 1px solid #ccc; /* Setter en 1 piksel tykk solid kantlinje rundt inntastingsfeltene */
+    border-radius: 4px; /* Bruker avrundede hjørner med en radius på 4 piksler */
+}
+
+/* Stiler for knappen med ID-en 'slettAlle' */
+#slettAlle {
+    background-color: #2c3e50; /* Setter bakgrunnsfargen til en mørk blåfarge */
+    color: white; /* Setter tekstfargen til hvit for kontrast */
+    padding: 12px 20px; /* Legger til 12 piksler vertikalt og 20 piksler horisontalt med polstring */
+    border: none; /* Fjerner kantlinjen rundt knappen */
+    cursor: pointer; /* Endrer musepekeren til en hånd når den svever over knappen */
+    border-radius: 4px; /* Bruker avrundede hjørner med en radius på 4 piksler */
+    margin-top: 10px; /* Legger til 10 piksler med avstand over knappen */
+    font-weight: bold; /* Setter teksten til fet skrift */
+    letter-spacing: normal; /* Setter normal bokstavavstand */
+    font-size: 16px; /* Setter skriftstørrelsen til 16 piksler */
+}
+
+/* Stiler for hover-effekten på knappen med ID-en 'slettAlle' */
+#slettAlle:hover {
+    background-color: #3d6fa6; /* Endrer bakgrunnsfargen til en annen blåfarge når musen svever over knappen */
+}
+
+/* Stiler for tabell */
+table {
+    width: 100%; /* Setter bredden til 100% av forelderens bredde */
+    border-collapse: collapse; /* Slår sammen tabellceller for å fjerne mellomrom mellom dem */
+    margin-top: 20px; /* Legger til 20 piksler med avstand over tabellen */
+}
+
+/* Stiler for tabellhode (th) og tabellcelle (td) */
+th, td {
+    border: 1px solid #ddd; /* Setter en 1 piksel tykk solid kantlinje rundt tabellcellene */
+    padding: 12px; /* Legger til 12 piksler med polstring rundt tabellcellene */
+    text-align: left; /* Justerer teksten til venstre innenfor tabellcellene */
+}
+
+/* Stiler for tabellhode (th) */
+th {
+    background-color: #3498db; /* Setter bakgrunnsfargen til en blåfarge for tabellhodet */
+    color: white; /* Setter tekstfargen til hvit for kontrast */
+}
+
+/* Stiler for generelle knapper */
+button {
+    background-color: #3498db; /* Setter bakgrunnsfargen til en blåfarge for generelle knapper */
+    color: white; /* Setter tekstfargen til hvit for kontrast */
+    padding: 12px 20px; /* Legger til 12 piksler vertikalt og 20 piksler horisontalt med polstring */
+    border: none; /* Fjerner kantlinjen rundt knappen */
+    cursor: pointer; /* Endrer musepekeren til en hånd når den svever over knappen */
+    border-radius: 4px; /* Bruker avrundede hjørner med en radius på 4 piksler */
+    margin-top: 10px; /* Legger til 10 piksler med avstand over knappen */
+}
+
+/* Stiler for hover-effekten på generelle knapper */
+button:hover {
+    background-color: #2980b9; /* Endrer bakgrunnsfargen til en annen blåfarge når musen svever over knappen */
+}
+/* Generelle stiler for hele siden */
+body {
+    font-family: 'Arial', sans-serif; /* Bruker Arial eller sans-serif som fallbakkskrift */
+    margin: 20px; /* Legger 20 piksler med margin rundt hele siden */
+    background-color: #f4f4f4; /* Setter en lys grå bakgrunnsfarge for hele siden */
+}
+
+/* Stiler for overskriftene h1 og h2 */
+h1, h2 {
+    color: #333; /* Setter tekstfargen til en mørk gråfarge */
+}
+
+/* Stiler for et skjema */
+form {
+    max-width: 600px; /* Setter maksimal bredde til 600 piksler for å begrense bredden på skjemaet */
+    margin: 0 auto; /* Plasserer skjemaet i midten horisontalt */
+    background-color: #fff; /* Setter en hvit bakgrunn for skjemaet */
+    padding: 20px; /* Legger til 20 piksler med polstring rundt skjemaet */
+    border-radius: 8px; /* Bruker avrundede hjørner med en radius på 8 piksler */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Legger til en svak skyggeeffekt rundt skjemaet */
+}
+
+/* Stiler for etiketter i skjemaet */
+label {
+    display: block; /* Gjør etikettene til blokk-elementer for å plassere dem på separate linjer */
+    margin-bottom: 5px; /* Legger 5 piksler med avstand under hver etikett */
+}
+
+/* Stiler for input-felt i skjemaet */
+input {
+    width: 100%; /* Setter bredden til 100% av forelderens bredde */
+    padding: 10px; /* Legger til 10 piksler med polstring rundt inntastingsfeltene */
+    margin-bottom: 15px; /* Legger 15 piksler med avstand under hvert inntastingsfelt */
+    box-sizing: border-box; /* Inkluderer polstring og kant i elementets totale bredde */
+    border: 1px solid #ccc; /* Setter en 1 piksel tykk solid kantlinje rundt inntastingsfeltene */
+    border-radius: 4px; /* Bruker avrundede hjørner med en radius på 4 piksler */
+}
+
+/* Stiler for knappen med ID-en 'slettAlle' */
+#slettAlle {
+    background-color: #2c3e50; /* Setter bakgrunnsfargen til en mørk blåfarge */
+    color: white; /* Setter tekstfargen til hvit for kontrast */
+    padding: 12px 20px; /* Legger til 12 piksler vertikalt og 20 piksler horisontalt med polstring */
+    border: none; /* Fjerner kantlinjen rundt knappen */
+    cursor: pointer; /* Endrer musepekeren til en hånd når den svever over knappen */
+    border-radius: 4px; /* Bruker avrundede hjørner med en radius på 4 piksler */
+    margin-top: 10px; /* Legger til 10 piksler med avstand over knappen */
+    font-weight: bold; /* Setter teksten til fet skrift */
+    letter-spacing: normal; /* Setter normal bokstavavstand */
+    font-size: 16px; /* Setter skriftstørrelsen til 16 piksler */
+}
+
+/* Stiler for hover-effekten på knappen med ID-en 'slettAlle' */
+#slettAlle:hover {
+    background-color: #3d6fa6; /* Endrer bakgrunnsfargen til en annen blåfarge når musen svever over knappen */
+}
+
+/* Stiler for tabell */
+table {
+    width: 100%; /* Setter bredden til 100% av forelderens bredde */
+    border-collapse: collapse; /* Slår sammen tabellceller for å fjerne mellomrom mellom dem */
+    margin-top: 20px; /* Legger til 20 piksler med avstand over tabellen */
+}
+
+/* Stiler for tabellhode (th) og tabellcelle (td) */
+th, td {
+    border: 1px solid #ddd; /* Setter en 1 piksel tykk solid kantlinje rundt tabellcellene */
+    padding: 12px; /* Legger til 12 piksler med polstring rundt tabellcellene */
+    text-align: left; /* Justerer teksten til venstre innenfor tabellcellene */
+}
+
+/* Stiler for tabellhode (th) */
+th {
+    background-color: #3498db; /* Setter bakgrunnsfargen til en blåfarge for tabellhodet */
+    color: white; /* Setter tekstfargen til hvit for kontrast */
+}
+
+/* Stiler for generelle knapper */
+button {
+    background-color: #3498db; /* Setter bakgrunnsfargen til en blåfarge for generelle knapper */
+    color: white; /* Setter tekstfargen til hvit for kontrast */
+    padding: 12px 20px; /* Legger til 12 piksler vertikalt og 20 piksler horisontalt med polstring */
+    border: none; /* Fjerner kantlinjen rundt knappen */
+    cursor: pointer; /* Endrer musepekeren til en hånd når den svever over knappen */
+    border-radius: 4px; /* Bruker avrundede hjørner med en radius på 4 piksler */
+    margin-top: 10px; /* Legger til 10 piksler med avstand over knappen */
+}
+
+/* Stiler for hover-effekten på generelle knapper */
+button:hover {
+    background-color: #2980b9; /* Endrer bakgrunnsfargen til en annen blåfarge når musen svever over knappen */
+}
